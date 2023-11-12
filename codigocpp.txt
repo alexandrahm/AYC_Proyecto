@@ -1,0 +1,27 @@
+#include <iostream>
+
+int main() {
+    // Operadores aritmeticos
+    int a = 10;
+    int b = 5;
+    int suma = a + b;
+    int resta = a - b;
+    int multiplicacion = a * b;
+    int division = a / b;
+    // Operadores relacionales
+    int x = 7;
+    int y = 7;
+    int igualdad = (x == y);
+    int distinto = (x != y);
+    int mayor = (x > y);
+    int menor = (x < y);
+    // Operadores logicos
+    bool condition1 = true;
+    bool condition2 = false;
+    int anD = (condition1 && condition2);
+    int oR = (condition1 || condition2);
+    int noT = (!condition1);
+    // Tipos de datos
+    char caracter = 'A';
+    long int numero_largo = 123456789;
+}
